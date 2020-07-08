@@ -144,7 +144,7 @@ EMAIL_HOST_PASSWORD='pedwnhbeqvgigisq'#os.environ.get('EMAIL_PASS')
 
 AWS_ACCESS_KEY_ID="AKIAYLD2YRTN36WCNOWR" #os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY="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" #os.environ.get('AWS_SECRET_ACCESS_KEY')
-export AWS_STORAGE_BUCKET_NAME="ndjango-blog-files" #os.environ.get('AWS_STORAGE_BUCKET_NAME')
+AWS_STORAGE_BUCKET_NAME="ndjango-blog-files" #os.environ.get('AWS_STORAGE_BUCKET_NAME')
 
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
