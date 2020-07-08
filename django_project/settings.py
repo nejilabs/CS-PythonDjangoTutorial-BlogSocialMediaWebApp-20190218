@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,12 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'nb3.321132@gmail.com' #os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = 'pedwnhbeqvgigisq'#os.environ.get('EMAIL_PASS')
+
+AWS_ACCESS_KEY_ID = "AKIAYLD2YRTN36WCNOWR" #os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = "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" #os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME = "ndjango-blog-files" #os.environ.get('AWS_STORAGE_BUCKET_NAME')
+
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
