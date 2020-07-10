@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY="1071d7e94179fa8be5ddf8cf1f5a405bf53142e83fe80564"#os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True #(os.environ.get('DEBUG_VALUE') == 'True')
 
 ALLOWED_HOSTS = ['nelly-django-app2.herokuapp.com']
 
