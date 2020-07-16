@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = '935dwf1t5*j)cp+4d8m_*@vr@27%x4y+6)72&_dq3%y7m)5aji'
-SECRET_KEY="1071d7e94179fa8be5ddf8cf1f5a405bf53142e83fe80564"#os.environ.get('SECRET_KEY')
+SECRET_KEY="l*#a%n5q8daw$1h%l=nrzywkyxhe26^$l@pe61mmk5i)fq@^2q"#os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True #(os.environ.get('DEBUG_VALUE') == 'True')
@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_project.urls'
+ROOT_URLCONF = 'echoph2021.urls'
 
 TEMPLATES = [
     {
@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_project.wsgi.application'
+WSGI_APPLICATION = 'echoph2021.wsgi.application'
 
 
 # Database
