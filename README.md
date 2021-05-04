@@ -1,4 +1,4 @@
-# CS-PythonDjangoTutorial-FullFeaturedWebApp-20190218
+# CS-PythonDjangoTutorial-BlogSocialMediaWebApp-20190218
 Corey Schafer - Django Tutorials (Python Django Tutorial: Full Featured Web App [Course]) (Feb 18, 2019)
 
 Link: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p 
